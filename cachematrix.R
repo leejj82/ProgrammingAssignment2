@@ -32,7 +32,3 @@ cacheSolve <- function(x, ...) {
     x$setinv(xinv)
     xinv
 }
-
-v <- makeCacheMatrix(cbind(c(1,0,0),c(0,1,0),c(0,0,1)))
-cacheSolve(v)
-cacheSolve(v)

@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## create functions set, get, setinv, getinv and data x and xinv
 
 makeCacheMatrix <- function(x = matrix()) {
     xinv <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## If the inverse is in cache, use it as the inverse, otherwise calculate inverse and store it in cache
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
